@@ -1,13 +1,13 @@
-#include <iosteam>
+#include <iostream>
 
 int main(){
 
   std::string name;
 
   std::cout << "enter your name: ";
-  std::cinn>> name;
+  std::cin>> name;
 
-  std::cout<< "Hello "<<name<<"! /n";
+  std::cout<< "Hello "<<name<<"! \n";
 
   return 0;
 
