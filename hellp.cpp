@@ -5,7 +5,7 @@ int main(){
   std::string name;
 
   std::cout << "enter your name: ";
-  std::cin>> name;
+  std::getline(std::cin,name);
 
   std::cout<< "Hello "<<name<<"! \n";
 
